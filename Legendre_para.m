@@ -15,4 +15,4 @@ for i = 2:n
     % 递归公式更新 para(i+1,:)
     para(i + 1, :) = ((2 * i - 1) * temp - (i - 1) * part_2) / i;
 end
-disp(para);%在屏幕展示参数
+disp(para);%在屏幕展示计算参数
