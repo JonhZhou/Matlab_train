@@ -16,3 +16,4 @@ for i = 2:n
     para(i + 1, :) = ((2 * i - 1) * temp - (i - 1) * part_2) / i;
 end
 disp(para);%在屏幕展示计算参数
+%%都是一些简单的计算过程
